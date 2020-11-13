@@ -1,0 +1,47 @@
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 769px) {
+
+	.main-header,
+	.main-nav, .row {
+		display: flex;
+	}
+	.main-header {
+		flex-direction: column;
+		align-items: center;
+	}
+.col{
+flex: 1 50%;/*flex grow, flex basis*/
+}
+#cr,#sr{
+	text-align: left;
+}
+/*to create multiline container*/
+.row{
+flex-wrap: wrap;
+}
+  /*.secondary{
+  order: -1;
+  
+  }
+*/
+}
+
+@media (min-width: 1025px) {
+
+	.main-header {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+.col{
+flex-basis: 0;/*giving the value flex-basis as '0' display the colmns in the same line*/
+}
+.primary{
+flex-grow: 1;
+}
+#cr,#sr{
+	text-align: left;
+}
+}
