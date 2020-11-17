@@ -131,6 +131,7 @@ text-align: center;
 	padding: 2em 0;
 	margin-top: 30px;
 background-image: url('../img/graywood.jpg');
+text-decoration-style: bold;
 }
 
 /* ---- Page Elements ---- */
@@ -177,7 +178,7 @@ padding: 3.2em 0;
 	}
 	.recipes{
 		width: 400px;
-		height: 300px;
+		height: 200px;
 	}
 	.headline {
 		/*height: 400px;
