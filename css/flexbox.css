@@ -15,9 +15,11 @@
 .col{
 flex: 1 50%;/*flex grow, flex basis*/
 }
-#cr,#sr{
+#cr{
 	text-align: left;
 }
+
+
 /*to create multiline container*/
 .row{
 flex-wrap: wrap;
