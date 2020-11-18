@@ -2,6 +2,9 @@
 MIMI'S KITCHEN
 ---------------
 	My project name is Mimi's Kitchen.  It is our family collection of recipes. 
+    First open the file,
+        "index.html"
+
 It has the following three navigation menu,
 	
 		1. Home
@@ -21,12 +24,12 @@ under the "CATEGORIES".  The categories include the following
 		5. Chutney Recipes
 		6. Snack Recipes
 
-if you click one of the link in the above list of categories, it will take to the separate list of recipes.
+If you click one of the link in the above list of categories, it will take to the separate list of recipes.
 
 Recipes
 -------
 	In the "Recipes" link, I have included all the categories by picture representation with the hyperlink.
-when you press each picture, it will take you to that category list of recipes.  
+when you click each picture, it will take you to that category list of recipes.  
 For example, if you click the picture under "Breakfast Recipes", it will show as following
 
 	1. Dosa recipe
@@ -38,7 +41,7 @@ For example, if you click the picture under "Breakfast Recipes", it will show as
 Contact
 -----------
 	In the "Contact" link, you will find a form to fill out the information of name, email and address.
-It will check user's email is correct or not if you submit the form.  
+It will check user's email is correct or not when you submit the form.  
 
 I hope you understand about my project.  Thank you for reading!!
 
@@ -67,7 +70,7 @@ Javascript Features
 -------------------
 
 	1. Created a form (‘Contact’ form in the Contact link), validated email address is in the proper format, 
-and then use that information on the page and display it back to the user.  Also I have included an alert message to verify the email address.
+and then use that information on the page and display it back to the user.  Also I have included an alert message to show the user name with the greetings.  The script is written in "app.js"
 	
  
 Thank you,
