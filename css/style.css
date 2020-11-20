@@ -133,8 +133,14 @@ text-align: center;
 	background: #d9e4ea;
 	padding: 2em 0;
 	margin-top: 30px;
+	
 background-image: url('../img/graywood.jpg');
 text-decoration-style: bold;
+}
+#linkin{
+	vertical-align: middle;
+	width: 40px;
+	height: 40px;
 }
 
 /* ---- Page Elements ---- */

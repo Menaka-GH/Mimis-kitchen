@@ -21,7 +21,11 @@
     margin: 0 0 2px 0;
     text-align: center;
   }
-  
+  #human{
+    width: 20%;
+    
+    padding: 10px;
+  }
   input[type="text"],
   input[type="email"],
   /*input[type="number"],
