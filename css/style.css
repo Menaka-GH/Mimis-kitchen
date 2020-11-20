@@ -38,10 +38,10 @@ a {
 img {
 	max-width: 100%;
 }
-.recipes{
+/*.recipes{
 	height: 200px;
 	width: 300px;
-}
+}*/
 .recipes1{
 	height: 200px;
 	width: 400px;
@@ -179,10 +179,14 @@ padding: 3.2em 0;
 		margin-right: 20px;
 		text-align: justify;
 	}
-	.recipes{
+	.recipes/*.recipes_cr,.recipes_sr*/{
 		width: 400px;
 		height: 200px;
 	}
+	/*#sr,#cr,#cyr,#rr,#snr,#br{
+		text-align: left;
+		
+	}*/
 	.headline {
 		/*height: 400px;
 		width: 400px;

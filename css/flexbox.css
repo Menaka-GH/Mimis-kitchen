@@ -1,8 +1,15 @@
 /* ================================= 
   Media Queries
 ==================================== */
+/*@media (max-width: 500px) {
 
-@media (min-width: 769px) {
+.recipes
+{
+	object-fit: fill;
+}
+}*/
+
+@media (min-width: 768px) {
 
 	.main-header,
 	.main-nav, .row {
@@ -15,11 +22,14 @@
 .col{
 flex: 1 50%;/*flex grow, flex basis*/
 }
-#cr{
-	text-align: left;
+/*#cr,#sr{
+	text-align: center;
+
+}*/
+.recipes_sr,.recipes_cr{
+width: 350px;
+margin-left: 200px;
 }
-
-
 /*to create multiline container*/
 .row{
 flex-wrap: wrap;
@@ -30,7 +40,13 @@ flex-wrap: wrap;
   }
 */
 }
-
+@media (min-width: 878px) and (max-width: 1025px){
+	.recipes_cr,.recipes_sr,.recipes, .recipes1{
+		
+		height: 200px;
+		width: 300px;
+	}	
+}
 @media (min-width: 1025px) {
 
 	.main-header {
@@ -44,6 +60,11 @@ flex-basis: 0;/*giving the value flex-basis as '0' display the colmns in the sam
 flex-grow: 1;
 }
 #cr,#sr{
-	text-align: left;
+	text-align: center;
+}
+.recipes_cr,.recipes_sr,.recipes{
+	margin-left: 0px;
+	height: 200px;
+	width: 300px;
 }
 }

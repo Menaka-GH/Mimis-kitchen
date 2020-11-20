@@ -28,6 +28,8 @@ errorElement.innerText = messages.join(', ');
 );
 name.value = "";
 email.value= "";
-
+function human_verify(){
+    alert("test");
+}
 
 
