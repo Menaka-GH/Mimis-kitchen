@@ -5,11 +5,11 @@ const mailformat = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0
 const form = document.getElementById('myform');
 const human_verify =document.getElementById('human');
 form.addEventListener("submit", (e) => {
-    //console.log("triggered");
+    console.log("triggered");
     let messages = [];
-    if(name.value === '' || name.value == null){
+    if(name.value === ''|| name.value === null){
         messages.push('Name is required');
-    }
+        }
     if(!(email.value.match(mailformat))){
         messages.push('Enter valid email address');
     }
@@ -30,14 +30,6 @@ errorElement.innerText = messages.join(', ');
 );
 name.value = "";
 email.value= "";
-/*function human_verify(){
-    alert("test");
-    
-    let var1=parseInt(prompt("what is the value of 20 + 10?"));
-    if( var1 === 30 ){
-        
-    }
-}*/
 
 
 
